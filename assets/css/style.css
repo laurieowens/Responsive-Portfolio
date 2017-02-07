@@ -76,9 +76,9 @@ nav {
   text-align: center;
   color: #4aaaa5;
   font-family: 'Georgia', Times, Times New Roman, serif;;
-  position: fixed;
-  top: 135px;
-  left: 680px;
+  position: relative;
+  top: -450px;
+  left: 665px;
   padding: none;
   background: #ffffff;
   float: left;
@@ -179,5 +179,47 @@ nav {
  width: 100%;
  
 }
+@media screen  and (max-width: 768px){
+
+ body { 
+  background-color: #333;
+}
+
+.ConnectWithMeHeader,
+.masthead,
+.container {
+   width: 600px;
+}
+
+
+
+
+
+@media screen  and (max-width: 980px){
+
+ body { 
+  background-color: #333;
+}
+
+.ConnectWithMeHeader,
+.masthead,
+.container {
+   width: 700px;
+}
+
+@media screen  and (max-width: 640px){
+
+ body { 
+  background-color: #333;
+}
+.namehead
+.moreofme,
+.ConnectWithMeHeader,
+.masthead,
+.container {
+   width: 400px;
+}
+
+  
 
 
