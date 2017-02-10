@@ -1,51 +1,74 @@
 <!Doctype HTML>
-<html>
+<html lang="en-us">
+
   <head>
-    <title>Contact Page</title>
-    <!-- Link to CSS sheet for "Contact" page-->
+    <meta charset="UTF-8">
+    <title>Contact | Laurie Owens</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
   </head>
+
   <body>
-    <div class="masthead">
-      <div class="namehead">
-        <h1><strong>Laurie Owens</strong></h1>
-      </div>
+
+    <header id="masthead">
+      <div class="container">
+       <a href="index.html"  id="logo">Laurie Owens</a>
       <nav>
-        <span class="moreofme"><a href="index.html" style="text-decoration:none; color:#777777">About</a></span>
-        <span class="moreofme"><a href="portfolio.html" style="text-decoration:none; color:#777777">Portfolio</a></span>
-        <span class="moreofme"><a href="contact.html" style="text-decoration:none; color:#777777">Contact</a></span>
+        <a href="index.html">About</a>
+        <a href="portfolio.html">Portfolio</a></span>
+        <a href="contact.html">Contact</a></span>
       </nav>
-      
-    </div>
-    <div class="container">
-      <div class="AboutMeHeader">
-        <h2><strong>&nbsp&nbspContact</h2></strong>
-        <hr size="3" width="630"></hr>
-      </div>
-      <form>
-        <p>Name</p>
-        <textarea rows="1" cols="80">John Smith</textarea>
-        <p> Email</p>
-        <textarea rows="1" cols="80">example@gmail.com</textarea>
-        <p>Message</p>
-        <textarea rows="12" cols="80"></textarea><br>
-        <input id="button" type="submit" value="submit">
+   </div>
+   </header>
+
+    <div id="main-container" class="container">
+      <section class="main-section">
+        <h1>Contact</h1>
+
+
+      <form id="contact-form">
+        <ul>
+          <li>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="John Smith" required="required">
+          </li>
+          <li>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
+          </li>
+          <li>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required="required"></textarea>
+          </li>
+        </ul>
+        <input type="submit">
       </form>
-      <div class="ConnectWithMeHeader">
-        <h3><strong>Connect with Me</strong></h3>
-        <hr size="3" width="240">
-        <a href="https://github.com/laurieowens">
-        <img src="assets/images/1485840152_github_square_black.png" alt=""></a>
-        <a href="https://www.linkedin.com/in/laurie-owens-9054bb134/">
-        <img  src="assets/images/1485841165_linkedin_square_color.png" alt=""></a>
-        <a href="http://stackexchange.com/users/10101857/l-owens">
-        <img  src="assets/images/1485843388_stackoverflow-square-shadow-social-media.png" alt=""></a>
+
+</section>
+
+    <section class="sidebar">
+      <div id="connect">
+        <h2>Connect with Me</h2>
+
+
+
+
+        <a href="https://github.com/laurieowens"><img src="assets/images/1485840152_github_square_black.png" class="social" alt="GitHub" /></a>
+        <a href="https://www.linkedin.com/in/laurie-owens-9054bb134/"><img src="assets/images/1485841165_linkedin_square_color.png" class="social" alt="LinkedIn" /></a>
+        <a href="http://stackexchange.com/users/10101857/l-owens"><img src="assets/images/1485843388_stackoverflow-square-shadow-social-media.png" class="social" alt="Stack Overflow" /></a>
       </div>
-      
-      <div class="stickyfooter">
-        <h4>@Copyright2017 Laurie Owens</h4>
-      </div>
+    </section>
+  </div>
+
+  <footer>
+    <div class="container">
+      Copyright &copy; 2017 Laurie Owens
     </div>
-    
-  </body>
+  </footer>
+</body>
+
 </html>
+
+    
+     
+   
